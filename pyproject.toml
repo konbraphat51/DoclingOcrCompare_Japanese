@@ -1,0 +1,13 @@
+[project]
+name = "docling-ocr-compare-japanese"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "docling[rapidocr]>=2.51.0",
+    "huggingface-hub>=0.20",
+    "onnxruntime>=1.16",
+    "opencv-python-headless>=4.8",
+]
+
+[tool.uv]
+package = false
